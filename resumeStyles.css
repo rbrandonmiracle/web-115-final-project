@@ -1,0 +1,43 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 24px;
+}
+
+div
+{
+    display: block;
+}
+
+.leftSide
+{
+    clear: both;
+    width: 30%;
+    float: left;
+    font-weight: normal;
+    padding-left: 12px;
+    padding-top: 10px;
+    /* padding-bottom: 20px; */
+}
+
+.rightSide
+{
+    /* clear: both; */
+    width: 60%;
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* padding-bottom: 20px; */
+}
+
+/* .dates
+{
+    font-weight: normal;
+    font-style: italic;
+} */
+
+.subheader
+{
+    font-weight: bolder;
+}
