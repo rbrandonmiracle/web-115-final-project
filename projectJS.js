@@ -131,6 +131,7 @@ function validateEmail(){
     for(var i=0; i<inputEmail.length; i++) {
         if (inputEmail[i] === "@") {
             atSymbolIndices.push(i);
+            console.log(i)
         }
     }
 
@@ -367,7 +368,10 @@ function initialize(){
 
 // process input. if email is valid, engage process of writing the resume page (other validation happens within)
 function submitInput() {
+    var emailCorrect = validateEmail();
     if (validateMandatoryFields()) {
-    createResume();
+        if (emailCorrect){
+            createResume();
+        }
     }
 }
